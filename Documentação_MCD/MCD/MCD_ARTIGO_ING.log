@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.25)  25 SEP 2016 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.25)  25 SEP 2016 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,63 +816,63 @@ Package pdftex.def Info: MCD_1.jpg used on input line 25.
 <MCD_2.jpg, id=15, 602.25pt x 722.7pt>
 File: MCD_2.jpg Graphic file (type jpg)
  <use MCD_2.jpg>
-Package pdftex.def Info: MCD_2.jpg used on input line 48.
-(pdftex.def)             Requested size: 180.67639pt x 216.81166pt.
- [2 <./MCD_2.jpg>]
-[3] <MCD_3.jpg, id=24, 501.70909pt x 584.73pt>
+Package pdftex.def Info: MCD_2.jpg used on input line 44.
+(pdftex.def)             Requested size: 150.56212pt x 180.67455pt.
+
+<MCD_3.jpg, id=16, 501.70909pt x 584.73pt>
 File: MCD_3.jpg Graphic file (type jpg)
  <use MCD_3.jpg>
-Package pdftex.def Info: MCD_3.jpg used on input line 59.
-(pdftex.def)             Requested size: 200.68008pt x 233.88785pt.
-
-<MCD_vista_de_cima.jpg, id=25, 353.82187pt x 286.06876pt>
+Package pdftex.def Info: MCD_3.jpg used on input line 56.
+(pdftex.def)             Requested size: 125.42696pt x 146.18214pt.
+ [2 <./MCD_2.jpg>]
+<MCD_vista_de_cima.jpg, id=22, 353.82187pt x 286.06876pt>
 File: MCD_vista_de_cima.jpg Graphic file (type jpg)
 
 <use MCD_vista_de_cima.jpg>
 Package pdftex.def Info: MCD_vista_de_cima.jpg used on input line 74.
 (pdftex.def)             Requested size: 113.81102pt x 92.01529pt.
 
-<MCD_Lateral_esquerda.jpg, id=26, 256.70906pt x 264.99pt>
+<MCD_Lateral_esquerda.jpg, id=23, 256.70906pt x 264.99pt>
 File: MCD_Lateral_esquerda.jpg Graphic file (type jpg)
 
 <use MCD_Lateral_esquerda.jpg>
 Package pdftex.def Info: MCD_Lateral_esquerda.jpg used on input line 76.
 (pdftex.def)             Requested size: 113.81102pt x 117.48146pt.
 
-<MCD_vista_de_baixo.jpg, id=27, 373.395pt x 296.60812pt>
+<MCD_vista_de_baixo.jpg, id=24, 373.395pt x 296.60812pt>
 File: MCD_vista_de_baixo.jpg Graphic file (type jpg)
 
 <use MCD_vista_de_baixo.jpg>
 Package pdftex.def Info: MCD_vista_de_baixo.jpg used on input line 78.
 (pdftex.def)             Requested size: 113.81102pt x 90.40424pt.
- [4 <./MCD_3.jpg> <./MCD_vista_de_cima.jpg> <./MCD_Lateral_esquerda.jpg> <./MCD
+ [3 <./MCD_3.jpg> <./MCD_vista_de_cima.jpg> <./MCD_Lateral_esquerda.jpg> <./MCD
 _vista_de_baixo.jpg>]
-<MCD_4.jpg, id=32, 642.4pt x 642.4pt>
+<MCD_4.jpg, id=29, 642.4pt x 642.4pt>
 File: MCD_4.jpg Graphic file (type jpg)
  <use MCD_4.jpg>
-Package pdftex.def Info: MCD_4.jpg used on input line 90.
+Package pdftex.def Info: MCD_4.jpg used on input line 91.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
 
-<MCD_5.jpg, id=33, 642.4pt x 642.4pt>
+<MCD_5.jpg, id=30, 642.4pt x 642.4pt>
 File: MCD_5.jpg Graphic file (type jpg)
  <use MCD_5.jpg>
-Package pdftex.def Info: MCD_5.jpg used on input line 92.
+Package pdftex.def Info: MCD_5.jpg used on input line 93.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
 
-<MCD_6.jpg, id=34, 642.4pt x 642.4pt>
+<MCD_6.jpg, id=31, 642.4pt x 642.4pt>
 File: MCD_6.jpg Graphic file (type jpg)
  <use MCD_6.jpg>
-Package pdftex.def Info: MCD_6.jpg used on input line 94.
+Package pdftex.def Info: MCD_6.jpg used on input line 95.
 (pdftex.def)             Requested size: 113.81102pt x 113.80379pt.
- [5 <./MCD_4.jpg> <./MCD_5.jpg> <./MCD_6.jpg>] (./MCD_ARTIGO_ING.aux) ) 
+ [4 <./MCD_4.jpg> <./MCD_5.jpg> <./MCD_6.jpg>] (./MCD_ARTIGO_ING.aux) ) 
 Here is how much of TeX's memory you used:
- 4443 strings out of 493029
- 58494 string characters out of 6136234
+ 4440 strings out of 493029
+ 58470 string characters out of 6136234
  129420 words of memory out of 5000000
- 7871 multiletter control sequences out of 15000+600000
+ 7868 multiletter control sequences out of 15000+600000
  13818 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,24p,539b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,24p,639b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
@@ -885,10 +885,10 @@ onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
 fb>
-Output written on MCD_ARTIGO_ING.pdf (5 pages, 688194 bytes).
+Output written on MCD_ARTIGO_ING.pdf (4 pages, 687467 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
