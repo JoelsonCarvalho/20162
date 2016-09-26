@@ -18,18 +18,19 @@
 	\section{CDM Development}
 	Knowing that the aparent solar diameter observed on the celestial vault is aproximately $0,5^{\circ}$, it was assumed, for each cylinder of sensor element, the value of $2^{\circ}$ as  FoV, Fiel of View. This value represents a detection region that covers 4 solar diameters. 
 	
-	The figure 1 represents the initial cylinder that comports a LDR. The calculations below were based on Figure 1. Remembering that R: LDR radius and L: the cylinder length.
+	The Figure \ref{Fig:MCD_1} represents the initial cylinder that comports a LDR. The calculations below were based on it. Remembering that R: LDR radius and L: the cylinder length.
 
 \begin{figure}[htb] 
 	\centering
-	\includegraphics[scale=0.5]{MCD_1.jpg}
+	\includegraphics[scale=0.5]{img/MCD_1.jpg}
 	\caption{First version of a cylinder to the sensors matrix.}
+	\label{Fig:MCD_1}
 \end{figure}
 
 $$\frac{R}{L} = tan(Z_{0}) ; \,\,   R = \frac{D_{LDR}}{2}, Z_{0} = \frac{FoV}{2}$$
 $$L = \frac{R}{tan(Z_{0})} \longrightarrow L = \frac{2}{tan(1^{o})}  \longrightarrow L \cong 115 mm$$ 
 
-\newpage
+
 It was found that the length of the tube was too large relative to its diameter, this causes a problem in quality of the printed resistant plastic, therefore it was necessary to add the parameter $Z_{0}$ to the tube. This parameter not only changed the geometry of the cylinder into a conical trunk, but also enabled the preservation of the FoV of each cylinder as well as the reduce its length by approximately 50\% ,features that facilitate the 3D prototyping process and guarantee proportionality in the CDM dimensions.
 	
 
@@ -41,19 +42,19 @@ Once dimensioned each cylinder, another problem was found: having more than one 
 The CDM structure is composed of 25 tubes arranged  concentric circles in the surface of a spherical cap. The  calculated parameters below signify: tranversal radius section (X), center distance of the support sphere,theoretical, until the  CDM beggining (d), the arrow length (F), and the solid FoV of the matrix (FoV$_{S}$).
 \begin{figure}[htb] 
 	\centering
-	\includegraphics[scale=0.25]{MCD_2.jpg}
+	\includegraphics[scale=0.25]{img/MCD_2.jpg}
 	\caption{MCD.}
 \end{figure}
 $$ \frac{X}{sin(4^{\circ})} = \frac{R_{B}}{sin(90^{\circ})}\longrightarrow X= \frac{R_{B}\times sin(4^{\circ})}{sin(90^{\circ})} \longrightarrow X=\frac{500\times 0,06975}{1} \therefore X=34,87mm $$
 $$d = \sqrt{500^{2} - 34,87^{2}} \therefore d=498,78mm \, ;\, F=500-498,78 \therefore F=1,22mm $$
 $$ A_{\bot } = \pi\times(34.87)^{2} \therefore A_{\bot } = 3.819,92mm^{2} $$ 
 $$ FoV_{S} = \frac{A_{\bot }}{(R_{B})^{2}} \longrightarrow FoV_{S} =\frac{3.819,92}{500^{2}} \therefore FoV_{S} = 0,0153 \, strad$$ 
-
+\newpage
 
 Then it was calculated the distance between each tubes layer of the CDM, between centers (S), it was performed in the condition indicated by a single tube.
 \begin{figure}[htb] 
 	\centering
-	\includegraphics[scale=0.25]{MCD_3.jpg}
+	\includegraphics[scale=0.25]{img/MCD_3.jpg}
 	\caption{Side cut of the CDM.}
 \end{figure}
 
@@ -71,12 +72,13 @@ same functionality and FoV, each tube has a hole 1 mm. The figures 4.a,
 \begin{figure}[h]
 	
 	\center
-	\subfigure[ref1][]{\includegraphics[width=4cm]{MCD_vista_de_cima.jpg}}
+	\subfigure[ref1][]{\includegraphics[width=4cm]{img/MCD_vista_de_cima.jpg}}
 	\qquad
-	\subfigure[ref2][]{\includegraphics[width=4cm]{MCD_Lateral_esquerda.jpg}}
+	\subfigure[ref2][]{\includegraphics[width=4cm]{img/MCD_Lateral_esquerda.jpg}}
 	\qquad
-	\subfigure[ref2][]{\includegraphics[width=4cm]{MCD_vista_de_baixo.jpg}}
+	\subfigure[ref2][]{\includegraphics[width=4cm]{img/MCD_vista_de_baixo.jpg}}
 	\caption{(a) Upper view. (b) Left side view. (c) Bottom view.}
+	
 	
 \end{figure}
  \newpage
@@ -88,11 +90,11 @@ Após realizar o apontamento grosso, por efemérides, um dos sensores da MCD det
  \begin{figure}[h]
  	
  	\center
- 	\subfigure[ref1][Comportamento antes do apontamento grosso.]{\includegraphics[width=4cm]{MCD_4.jpg}}
+ 	\subfigure[ref1][Comportamento antes do apontamento grosso.]{\includegraphics[width=4cm]{img/MCD_4.jpg}}
  	\qquad
- 	\subfigure[ref2][Comportamento após o apontamento grosso.]{\includegraphics[width=4cm]{MCD_5.jpg}}
+ 	\subfigure[ref2][Comportamento após o apontamento grosso.]{\includegraphics[width=4cm]{img/MCD_5.jpg}}
  	\qquad
- 	\subfigure[ref2][Comportamento após apontamento fino.]{\includegraphics[width=4cm]{MCD_6.jpg}}
+ 	\subfigure[ref2][Comportamento após apontamento fino.]{\includegraphics[width=4cm]{img/MCD_6.jpg}}
  	\caption{Etapas do algoritmo de apontamento fino.}
  	
  \end{figure}
